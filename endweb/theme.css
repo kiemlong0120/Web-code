@@ -1,0 +1,87 @@
+
+body{
+    font-family: Verdana;
+    margin-top: 0px;
+    padding: 0px;
+    text-align: justify;
+    background-color: skyblue;
+}
+#vien{
+    height:10px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+    z-index: 100000; /*Hiển thị lớp trên cùng*/
+  
+}
+#menutop{
+    height:50px;
+    background-color: red;
+    position:  fixed;
+    width: 100%;
+    left:0px;
+    right: 0px;
+    top: 10px;
+    font-weight: 100px;
+    z-index: 100000;
+}
+#menutop ul{
+    margin-top: 10px;
+    margin-left: 100px;
+    list-style: none;
+    
+}
+#menutop ul #menu li{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    float: left;
+}
+#menutop ul #menu li a{
+    color: white;
+    text-decoration: none;
+    padding-top:  10px; 
+    padding-bottom:  16px; 
+    padding-left:  7px; 
+    padding-right:  7px; 
+}
+#menutop ul #menu li a:hover{
+    color: red;
+    background-color: white;
+    text-decoration: underline;
+}
+
+#paner{
+    height:100px;
+    background-color: yellow;
+    width: auto;
+    left:0px;
+    right: 0px;
+    top: 60px;
+    position: absolute;
+}
+#panel #panelimg{
+    height:100px;
+    width: auto;
+    background-color: orange;
+    top: 160px;
+    position: absolute;
+
+}
+#conten{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+}
+#footer{
+    color: white;
+    font-size: 20px;
+    width: auto;
+    height: 30px;
+    margin: auto;
+    background-color: black;
+}
+
